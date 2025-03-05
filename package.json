@@ -1,0 +1,30 @@
+{
+  "name": "ts-boilerplate",
+  "version": "1.0.0",
+  "author": "Victor Mendonça <victor.mendonca@live.com>",
+  "license": "ISC",
+  "description": "TypeScript boilerplate using pnpm",
+  "main": "./dist/index.js",
+  "typings": "./typings",
+  "type": "module",
+  "engines": {
+    "node": ">=22.14"
+  },
+  "scripts": {
+    "build": "rm -rf dist typings;npx tsc -p .",
+    "start": "npx tsx src"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/node": "22.13.8",
+    "@typescript-eslint/eslint-plugin": "8.26.0",
+    "@typescript-eslint/parser": "8.26.0",
+    "eslint": "9.21.0",
+    "eslint-config-prettier": "10.0.2",
+    "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-prettier": "5.2.3",
+    "prettier": "3.5.3",
+    "ts-node": "10.9.2",
+    "typescript": "5.8.2"
+  }
+}
