@@ -1,7 +1,3 @@
-Here's an improved version of your README with enhanced clarity and structure:
-
----
-
 # ts-boilerplate
 
 A minimal TypeScript boilerplate with strict configurations and top-level await enabled, designed to kickstart your TypeScript projects with best practices.
